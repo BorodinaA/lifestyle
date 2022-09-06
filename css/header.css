@@ -3,8 +3,12 @@
     margin: 70px 155px 0 155px;
 }
 
+.main-nav-list {
+    display: flex;
+    justify-content: center;
+}
+
 .main-nav-item {
-    display: inline-block;
     margin-right: 80px;
     text-transform: uppercase;
 }
@@ -14,11 +18,10 @@
 }
 
 .main-nav-link {
-    display: block;
+    display: flex;
     padding: 10px;
 }
 
 .main-nav-link-active {
     color: var(--link-active);
 }
-
