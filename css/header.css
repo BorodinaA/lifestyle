@@ -1,14 +1,24 @@
 .main-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 625px;
     font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 100px;
+    margin: 70px 155px 0 155px;
 }
 
-.main-nav__link-blue {
-    color: var(--link-blue);
+.main-nav-item {
+    display: inline-block;
+    margin-right: 80px;
+    text-transform: uppercase;
+}
+
+.main-nav-item:last-child {
+    margin-right: 0px;
+}
+
+.main-nav-link {
+    display: block;
+    padding: 10px;
+}
+
+.main-nav-link-active {
+    color: var(--link-active);
 }
 

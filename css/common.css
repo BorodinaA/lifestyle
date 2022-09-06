@@ -6,13 +6,13 @@
 }
 
 :root {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PlayfairDisplay';
     overflow-x: hidden;
     color: var(--text-color);
     --text-color: #626262;
     --text-subtitle: #b4ad9e;
     --border: #626262;
-    --link-blue: #03a9f4;
+    --link-active: #03a9f4;
 }
 
 img {
@@ -35,9 +35,16 @@ p {
     margin: 0; 
 }
 
+ul {
+    text-transform: none;
+}
+
+li {
+    list-style: none;
+}
+
 .container {
     width: 100%;
     max-width: 900px;
     margin: auto;
-    padding: 70px 0;
 }
