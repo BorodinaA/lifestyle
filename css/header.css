@@ -1,0 +1,14 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 625px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.main-nav__link-blue {
+    color: var(--link-blue);
+}
+

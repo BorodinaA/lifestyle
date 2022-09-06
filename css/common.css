@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    color: var(--text-color);
+    --text-color: #626262;
+    --text-subtitle: #b4ad9e;
+    --border: #626262;
+    --link-blue: #03a9f4;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+    color: var(--text-color); 
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 0; 
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 70px 0;
+}
